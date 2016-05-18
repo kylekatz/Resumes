@@ -1,0 +1,74 @@
+body {
+	margin: 1% 15%;
+	font-family: 'Federo', sans-serif;
+	background-image: url("../images/redcat.jpg");
+	background-repeat: repeat-y;
+	position: absolute;
+}
+h1 {
+	text-align: center;
+	font-size: 38px;
+	word-spacing: 5px;
+}
+
+header {
+	position: relative;
+	left: 25%;
+}
+
+header p {
+	font-size: 19px;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+#summary {
+	font-size: 1.1em;
+	position: relative;
+	left: 25%;
+}
+
+#skills, #educate, #employ {
+	position: relative;
+	left: 35%;
+}
+
+ul {
+	line-height: 1.4em;
+	margin: 2%;
+}
+
+#col1 {
+	float: left;
+}
+
+#col2 {
+	float: left;
+}
+
+section p {
+	line-height: 1.4em;
+	clear: both;
+}
+
+#copy {
+	position: absolute;
+    left: -21%;
+    top: 39%;
+}
+
+#summary {
+	margin: 10% 10%;
+	text-align: center;
+	clear: both;
+}
+
+#educate {
+	float: left;
+	clear: both;
+}
+
+#employ {
+	padding-top: 2%;
+	clear: both;
+}
