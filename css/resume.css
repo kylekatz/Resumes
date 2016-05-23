@@ -1,10 +1,16 @@
 body {
 	margin: 1% 15%;
 	font-family: 'Federo', sans-serif;
-	background-image: url("../images/redcat.jpg");
+	background-image: url("redcat.jpg");
 	background-repeat: repeat-y;
 	position: absolute;
 }
+
+#box {
+	width: 95%;
+	float: right;
+}
+
 h1 {
 	text-align: center;
 	font-size: 38px;
@@ -72,3 +78,107 @@ section p {
 	padding-top: 2%;
 	clear: both;
 }
+
+@media only screen and (max-width: 500px) {
+
+body {
+	font-size: 1.2em;
+	background-color: rgba(192,192,192,1);
+}
+
+img {
+	width: 20%;
+}
+
+#box {
+	width: 85%;
+	margin-right: 45%;
+	float: right;
+	background-color: rgba(192,192,192,0.3);
+}
+
+header {
+	padding: 10%;
+	margin: 10%;
+	width: 95%;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  	border-radius: 15px;
+	background-color: rgba(255,210,210,0.6);
+}
+
+header h1 {
+	font-size: 1.5em;
+}
+
+header p {
+	font-size: 1em;
+	width: 90%;
+	padding-right: 25px;
+}
+
+#summary {
+	padding: 10%;
+	width: 95%;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  	border-radius: 15px;
+	background-color: rgba(192,192,192,0.6);
+}
+
+#skills {
+	padding: 5% 10%;
+	width: 95%;
+	height: 330px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  	border-radius: 15px;
+	background-color: rgba(255,210,210,0.6);
+}
+
+ul {
+    line-height: 1.5em;
+    margin: 0 2%;
+}
+
+#educate {
+	width: 95%;
+	padding: 3% 10%;
+	margin: 10% 0;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  	border-radius: 15px;
+	background-color: rgba(192,192,192,0.3);
+}
+
+#educate li {
+	line-height: 1.7em;
+}
+
+#employ {
+	padding: 10%;
+	margin-bottom: 10%;
+	width: 95%;
+	height: 1200px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+  	border-radius: 15px;
+	background-color: rgba(255,210,210,0.6);
+}
+
+#copy {
+	position: relative;
+	margin: 10%;
+}
+
+}  
