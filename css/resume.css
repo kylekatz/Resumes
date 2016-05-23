@@ -1,7 +1,7 @@
 body {
 	margin: 1% 15%;
 	font-family: 'Federo', sans-serif;
-	background-image: url("redcat.jpg");
+	background-image: url("../images/redcat.jpg");
 	background-repeat: repeat-y;
 	position: absolute;
 }
