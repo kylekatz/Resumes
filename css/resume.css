@@ -79,69 +79,61 @@ section p {
 	clear: both;
 }
 
-/*@media screen and (max-width: 700px) */
 @media only screen 
 and (min-device-width : 300px) 
 and (max-device-width : 800px) {
 
 body {
-	font-size: 1.2em;
-	background-color: rgba(192,192,192,1);
+	font-size: 3.5em;
+	background-color: lightgray;
 }
 
-img {
-	width: 20%;
-}
-
-#box {
-	width: 85%;
-	margin-right: 45%;
-	float: right;
-	background-color: rgba(192,192,192,0.3);
 }
 
 header {
-	padding: 10%;
-	margin: 10%;
+	padding: 5%;
+	margin: 5%;
 	width: 95%;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-  	border-radius: 15px;
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+  	border-radius: 35px;
 	background-color: rgba(255,210,210,0.6);
 }
 
 header h1 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 header p {
 	font-size: 1em;
-	width: 90%;
-	padding-right: 25px;
 }
 
 #summary {
-	padding: 10%;
+	font-size: 1em;
+	padding: 5%;
+	margin: 5%;
 	width: 95%;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-  	border-radius: 15px;
-	background-color: rgba(192,192,192,0.6);
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+  	border-radius: 35px;
+	background-color: rgba(192,192,192, .8);
 }
 
 #skills {
-	padding: 5% 10%;
+	font-size: inherit;
+	padding: 5%;
+	margin: 5% -5%;
 	width: 95%;
-	height: 330px;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-  	border-radius: 15px;
+	height: 1000px;
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+  	border-radius: 35px;
 	background-color: rgba(255,210,210,0.6);
 }
 
@@ -151,15 +143,16 @@ ul {
 }
 
 #educate {
+	font-size: inherit;
+	padding: 5%;
+	margin: 5% -5%;
 	width: 95%;
-	padding: 3% 10%;
-	margin: 10% 0;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-  	border-radius: 15px;
-	background-color: rgba(192,192,192,0.3);
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+  	border-radius: 35px;
+	background-color: rgba(192,192,192, .8);
 }
 
 #educate li {
@@ -167,21 +160,22 @@ ul {
 }
 
 #employ {
-	padding: 10%;
-	margin-bottom: 10%;
+	font-size: inherit;
+	padding: 5%;
+	margin: 5% -5%;
 	width: 95%;
-	height: 1200px;
-	-moz-border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-  	border-radius: 15px;
+	height: 3280px;
+	-moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+  	border-radius: 35px;
 	background-color: rgba(255,210,210,0.6);
 }
 
 #copy {
 	position: relative;
-	margin: 10%;
+	margin: 1%;
 }
 
 }  
