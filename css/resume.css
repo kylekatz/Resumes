@@ -97,7 +97,7 @@ header {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
   	border-radius: 35px;
-	background-color: rgba(255,210,210,0.6);
+	background-color: rgba(131,238,248, 0.6);
 }
 
 header h1 {
@@ -118,7 +118,7 @@ header p {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
   	border-radius: 35px;
-	background-color: rgba(192,192,192, .8);
+	background-color: rgba(255,178,217, 0.6);
 }
 
 #skills {
@@ -132,7 +132,7 @@ header p {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
   	border-radius: 35px;
-	background-color: rgba(255,210,210,0.6);
+	background-color: rgba(131,227,179, 0.6);
 }
 
 ul {
@@ -150,7 +150,7 @@ ul {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
   	border-radius: 35px;
-	background-color: rgba(192,192,192, .8);
+	background-color: rgba(252,171,87, 0.6);
 }
 
 #educate li {
@@ -168,7 +168,7 @@ ul {
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
   	border-radius: 35px;
-	background-color: rgba(255,210,210,0.6);
+	background-color: rgba(131,238,248,0.6);
 }
 
 #copy {
